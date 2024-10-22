@@ -19,6 +19,11 @@ function App() {
           <JatekTer lista={lista} />
         </div>
       </article>
+      <div className="feladat">
+      <p>{} db felkapcsolt lámpa van</p>
+      <p>Kapcsold fel az összeset!</p>
+      <p>Sok sikert!</p></div>
+      
       <footer>Dobszay Dorka</footer>
     </div>
   );

@@ -2,28 +2,37 @@
   text-align: center;
 }
 
-
-.App-header {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
 
 .jatekter {
-  
   display:grid;
   grid-template-columns: repeat(3,60px);
   width: 180px;
   margin: auto;
   gap:5px;
+}
+
+article{
+  background-color: bisque;
+  width: 220px;
+  margin: auto;
+  padding: 10px;
+}
+
+
+.feladat{
+  background-color: aqua;
+  font-weight: bold;
+  width: 240px;
+  margin: auto;
+}
+
+footer{
+  background-color: aquamarine;
+  color:rgb(221, 164, 89);
+  width: 240px;
+  margin: auto;
 }
 
